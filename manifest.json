@@ -1,0 +1,31 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+	"manifest_version": 2,
+	"name": "Lifewire Core Concepts",
+	"description": "Quickly access core concept URLs for Lifewire.",
+	"version": "1.0",
+	
+	"icons": {
+		"16": "lwicon.png",
+		"32": "lwicon.png",
+		"48": "lwicon.png",
+		"128": "lwicon.png"
+	},
+	
+	"options_ui": {
+		"page": "options.html",
+		"chrome_style": true
+	},
+	
+    "background": { 
+        "page":"background.html"
+	},
+
+    "browser_action" : {
+        "default_icon" : "lwicon.png",
+        "default_title" : "Lifewire Core Concepts",
+        "default_popup": "popup.html"
+    }
+
+}
